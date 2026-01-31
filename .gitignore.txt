@@ -1,0 +1,15 @@
+# ===== ANGULAR =====
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/.vscode/
+
+# ===== .NET =====
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/.idea/
+
+# ===== General =====
+.DS_Store
+*.log

@@ -1,0 +1,25 @@
+<h1>Rick & Morty — Episodios</h1>
+
+<ul>
+  @for (episode of episodes(); track episode.id) {
+    <li>
+      <strong>{{ episode.episodeCode }}</strong> —
+      {{ episode.name }}
+      <span>({{ episode.air_date }})</span>
+    </li>
+  }
+</ul>
+
+<div>
+  Página {{ currentPage() }} de {{ totalPages() }}
+</div>
+
+<button (click)="loadEpisodes(currentPage() - 1)"
+        [disabled]="currentPage() === 1">
+  Anterior
+</button>
+
+<button (click)="loadEpisodes(currentPage() + 1)"
+        [disabled]="currentPage() === totalPages()">
+  Siguiente
+</button>
