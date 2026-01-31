@@ -20,11 +20,11 @@ PruebaTecnicaCarsales/
 
 Angular (http://localhost:4200)
 
-          ↓
+↓
 
 Backend .NET (http://localhost:5039)
 
-          ↓
+↓
 
 Rick & Morty API (externa)
 
@@ -33,26 +33,23 @@ COMO EJECUTAR EL PROYECTO
 
 1. Clonar el repositorio
 
-git clone <URL_DE_TU_REPO>
-cd PruebaTecnicaCarsales
+          git clone <URL_DE_TU_REPO>
+          cd PruebaTecnicaCarsales
 
 2. Levantar el Backend (.NET)
 
-cd backend
-
-dotnet run
+          cd backend
+          dotnet run
 
 3. Levantar el Frontend (Angular)
 
-cd frontend
-
-npm install
-
-ng serve
+          cd frontend
+          npm install
+          ng serve
 
 4. Luego abre en tu navegador:
 
-http://localhost:4200/episodes
+          http://localhost:4200/episodes
 
 
 
