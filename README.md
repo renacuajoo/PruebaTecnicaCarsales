@@ -11,19 +11,21 @@ PruebaTecnicaCarsales/
 
 ├── frontend/   → Proyecto Angular
 
-│   └── (código Angular aquí)
-
 │
 
-└── backend/    → Proyecto ASP.NET Core Web API    └── (código .NET aquí)
+└── backend/    → Proyecto ASP.NET Core Web API    
 
 ---
 --ARQUITECTURA Y PUERTOS--
 
 Angular (http://localhost:4200)
+
           ↓
+
 Backend .NET (http://localhost:5039)
+
           ↓
+
 Rick & Morty API (externa)
 
 ---
@@ -37,12 +39,15 @@ cd PruebaTecnicaCarsales
 2. Levantar el Backend (.NET)
 
 cd backend
+
 dotnet run
 
 3. Levantar el Frontend (Angular)
 
 cd frontend
+
 npm install
+
 ng serve
 
 4. Luego abre en tu navegador:
